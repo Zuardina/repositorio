@@ -34,25 +34,20 @@ namespace ApiAso.Repositorio.App
             var sentencaSql = ObterSentencaSqlAppGeraCodigo();
             if (filtro.idAppGeraCodigo > 0)
                 sentencaSql.Append($" AND idAppGeraCodigo = {filtro.idAppGeraCodigo}");
-            else if
+            if
                (filtro.idEmpresa > 0)
                sentencaSql.Append($" AND idEmpresa = {filtro.idEmpresa}");
             else
             return null;
             switch (filtro.PesquisaPor)
-            {
-                case Enumerador.ePesquisaPor.PorId:
-               
-                    break;
+            { 
                 case Enumerador.ePesquisaPor.PorDescricaoIgualdade:
                     if (!string.IsNullOrEmpty(filtro.Proprietario))
                         sentencaSql.Append($" AND Proprietario = '{filtro.Proprietario}'");
-
                     break;
                 case Enumerador.ePesquisaPor.PorDescricaoPorComparacao:
                     if (!string.IsNullOrEmpty(filtro.Proprietario))
                         sentencaSql.Append($" AND Proprietario LIKE '%{filtro.Proprietario}%'");
-
                     break;
             }
 

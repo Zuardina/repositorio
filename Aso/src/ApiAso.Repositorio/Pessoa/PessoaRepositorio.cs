@@ -124,7 +124,7 @@ namespace ApiAso.Repositorio.Pessoa
                                          WHERE FlagExcluido = 0 
                                          ");//Analisar se este WHERE é necessario "FlagExcluido" é uma referencia à base model 
 
-                                            // AND idEmpresa = 57
+            // AND idEmpresa = 57
         }
         #endregion
 
