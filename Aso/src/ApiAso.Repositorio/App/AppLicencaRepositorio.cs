@@ -28,7 +28,7 @@ namespace ApiAso.Repositorio.App
             flagDispose = true;
         }
 
-        #region App Gera Codigo
+        #region App pLicenca
         public List<AppLicencaModel> ObterAppLicenca(AppLicencaDTO filtro)
         {
             var sentencaSql = ObterSentencaSqlAppLicenca();
