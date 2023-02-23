@@ -29,7 +29,7 @@ namespace ApiAso.Repositorio.App
         }
 
         #region App Tipo Contato Validação
-        public List<AppTipoContatoValidacaoModel> ObterAppTipoContatoMascara(AppTipoContatoValidacaoDTO filtro)
+        public List<AppTipoContatoValidacaoModel> ObterAppTipoContatoValidacao(AppTipoContatoValidacaoDTO filtro)
         {
             var sentencaSql = ObterSentencaSqlAppTipoContatoValidacao();
             if (filtro.idAppTipoContatoValidacao > 0)
