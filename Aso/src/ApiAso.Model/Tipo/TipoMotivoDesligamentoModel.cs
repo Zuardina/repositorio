@@ -6,6 +6,6 @@ namespace ApiAso.Model.Tipo
     {
         public int idTipoMotivoDesligamento { get; set; }
         public int idEmpresa { get; set; }
-        public string Descricao { get; set; }        
+        public string Descricao { get; set; }
     }
 }

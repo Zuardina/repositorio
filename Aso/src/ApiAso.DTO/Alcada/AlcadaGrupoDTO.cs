@@ -6,6 +6,6 @@ namespace ApiAso.DTO.Alcada
     {
         public int idAlcadaGrupo { get; set; }
         public string NomeCompleto { get; set; }
-        public string Email { get; set; }         
+        public string Email { get; set; }
     }
 }

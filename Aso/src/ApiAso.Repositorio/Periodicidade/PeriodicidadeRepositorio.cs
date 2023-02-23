@@ -35,7 +35,7 @@ namespace ApiAso.Repositorio.Periodicidade
             if (filtro.idPeriodicidade > 0)
                 sentencaSql.Append($" AND idPeriodicidade = {filtro.idPeriodicidade}");
             else
-            return null;
+                return null;
             switch (filtro.PesquisaPor)
             {
 

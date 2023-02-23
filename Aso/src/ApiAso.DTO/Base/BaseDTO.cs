@@ -2,7 +2,7 @@
 
 namespace ApiAso.DTO.Base
 {
-    public class BaseDTO 
+    public class BaseDTO
     {
         public ePesquisaPor PesquisaPor { get; set; }
     }

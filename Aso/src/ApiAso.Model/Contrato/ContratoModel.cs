@@ -10,6 +10,6 @@ namespace ApiAso.Model.Contrato
         public int idProduto { get; set; }
         public DateTime DataInicio { get; set; }
         public DateTime DataFim { get; set; }
-        public decimal ValorUnitario { get; set; } 
+        public decimal ValorUnitario { get; set; }
     }
 }

@@ -9,6 +9,5 @@ namespace ApiAso.DTO.App
         public string Licenca { get; set; }
         public string NumeroTerminal { get; set; }
         public string UsuarioNoTerminal { get; set; }
-    
     }
 }

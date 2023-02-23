@@ -1,5 +1,4 @@
 ﻿using ApiAso.DTO.Base;
-using ApiAso.Enumerador;
 
 namespace ApiAso.DTO.Pessoa
 {

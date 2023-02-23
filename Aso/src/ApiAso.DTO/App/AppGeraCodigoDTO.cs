@@ -7,6 +7,5 @@ namespace ApiAso.DTO.App
         public int idAppGeraCodigo { get; set; }
         public int idEmpresa { get; set; }
         public string Proprietario { get; set; }
-    
     }
 }

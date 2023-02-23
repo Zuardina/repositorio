@@ -36,11 +36,11 @@ namespace ApiAso.Repositorio.App
                 sentencaSql.Append($" AND idAppGeraCodigo = {filtro.idAppGeraCodigo}");
             if
                (filtro.idEmpresa > 0)
-               sentencaSql.Append($" AND idEmpresa = {filtro.idEmpresa}");
+                sentencaSql.Append($" AND idEmpresa = {filtro.idEmpresa}");
             else
-            return null;
+                return null;
             switch (filtro.PesquisaPor)
-            { 
+            {
                 case Enumerador.ePesquisaPor.PorDescricaoIgualdade:
                     if (!string.IsNullOrEmpty(filtro.Proprietario))
                         sentencaSql.Append($" AND Proprietario = '{filtro.Proprietario}'");
@@ -69,6 +69,5 @@ namespace ApiAso.Repositorio.App
                                          "); // AND idEmpresa = 57"
         }
         #endregion
-
     }
 }

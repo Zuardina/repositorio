@@ -80,11 +80,6 @@ namespace ApiAso.Repositorio.App
                                          "); // AND idEmpresa = 57"
         }
         #endregion
-
     }
-
-
-
-
 }
 

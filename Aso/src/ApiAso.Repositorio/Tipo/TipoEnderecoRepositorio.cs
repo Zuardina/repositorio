@@ -59,9 +59,9 @@ namespace ApiAso.Repositorio.Tipo
             return new StringBuilder($@"SELECT   idTipoEndereco 
                                                 ,Descricao 
                                                 ,FlagPrazoDeterminado 
-                                          FROM Endereco 
-                                         WHERE FlagExcluido = 0
-                                         "); // AND idEmpresa = 57"
+                                                FROM Endereco 
+                                                WHERE FlagExcluido = 0
+                                                "); // AND idEmpresa = 57"
         }
         #endregion
     }

@@ -20,8 +20,8 @@ namespace ApiAso.Model.Pessoa
         public int idEscolaridade { get; set; }
         public int idPessoaFuncionario { get; set; }
         public int idPessoa { get; set; }
-        public char Sexo { get; set; } 
-        public decimal Altura { get; set; } 
+        public char Sexo { get; set; }
+        public decimal Altura { get; set; }
         public DateTime DataNascimento { get; set; }
         public DateTime DataAdmissao { get; set; }
         public DateTime DataDemissao { get; set; }

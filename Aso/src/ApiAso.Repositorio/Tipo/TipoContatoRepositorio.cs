@@ -58,7 +58,6 @@ namespace ApiAso.Repositorio.Tipo
                 return conexao.Query<TipoContatoModel>(sentencaSql.ToString(), commandType: CommandType.Text).ToList();
             }
         }
-
         private StringBuilder ObterSentencaSqTipoContato()
         {
             return new StringBuilder($@"SELECT idTipoContato

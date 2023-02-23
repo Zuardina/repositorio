@@ -53,21 +53,19 @@ namespace ApiAso.Repositorio.Funcao
 
                     break;
             }
-
             //Log.Infor($"Execução da sentença {sentencaSql.ToString()}")
             using (var conexao = new MySqlConnection(""))
             {
                 return conexao.Query<FuncaoModel>(sentencaSql.ToString(), commandType: CommandType.Text).ToList();
             }
         }
-
         private StringBuilder ObterSentencaSqlFuncao()
         {
             return new StringBuilder($@"SELECT idFuncao
                                                ,Funcao
                                           FROM Funcao 
                                          WHERE FlagExcluido = 0
-                                         " ); // AND idEmpresa = 57"
+                                         "); // AND idEmpresa = 57"
         }
         #endregion
     }

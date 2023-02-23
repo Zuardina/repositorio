@@ -1,7 +1,5 @@
 ﻿using ApiAso.DTO.Alcada;
-using ApiAso.DTO.App;
 using ApiAso.Model.Alcada;
-using ApiAso.Model.App;
 using Dapper;
 using MySql.Data.MySqlClient;
 using System.Data;

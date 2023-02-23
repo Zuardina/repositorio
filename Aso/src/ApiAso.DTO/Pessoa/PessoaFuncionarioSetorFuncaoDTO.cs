@@ -2,7 +2,7 @@
 
 namespace ApiAso.DTO.Pessoa
 {
-    public class PessoaFuncionarioSetorFuncaoDTO: BaseDTO
+    public class PessoaFuncionarioSetorFuncaoDTO : BaseDTO
     {
         public int idPessoaFuncionario { get; set; }
     }

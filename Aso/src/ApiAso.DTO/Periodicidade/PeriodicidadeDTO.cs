@@ -2,7 +2,7 @@
 
 namespace ApiAso.DTO.Periodicidade
 {
-    public class PeriodicidadeDTO: BaseDTO
+    public class PeriodicidadeDTO : BaseDTO
     {
         public int idPeriodicidade { get; set; }
         public string Periodicidade { get; set; }

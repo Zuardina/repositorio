@@ -3,8 +3,8 @@
 namespace ApiAso.DTO.Tipo
 {
     public class TipoContratoDTO : BaseDTO
-    {       
-         public int idTipoContrato { get; set; }
-         public string Descricao { get; set; }
+    {
+        public int idTipoContrato { get; set; }
+        public string Descricao { get; set; }
     }
 }

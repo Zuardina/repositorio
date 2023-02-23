@@ -9,4 +9,3 @@ namespace ApiAso.DTO.Tipo
         public string Mascara { get; set; }
     }
 }
-
